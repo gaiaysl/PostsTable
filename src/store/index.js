@@ -4,17 +4,17 @@ import axios from 'axios'
 export const useStore = defineStore({
   id: 'store',
   state: () => ({
-    posts: []
+    posts: [],
+    filteredPosts: [] 
   }),
   actions: {
     async fetchPosts() {
-      axios.get('https://jsonplaceholder.typicode.com/posts')
-      .then(response => {
-        this.posts = response.data
-        return this.posts
-      })
-
-    }
+      const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
+      this.posts = response.data
+      this.filteredPosts = response.data 
+    },
+    getUsersId(userId) {
+      return this.posts.filter(post => post.userId === userId)
+    },
   }
 })
-

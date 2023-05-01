@@ -1,7 +1,6 @@
-<template>
+<template  >
   <div id="app">
     <HomePage />
-    <div>asdojasdklasd</div>
   </div>
 </template>
 
