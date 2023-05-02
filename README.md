@@ -3,6 +3,7 @@
 
 Çözüm:
 
-<img width="448" alt="Ekran Resmi 2023-05-01 23 17 01" src="https://user-images.githubusercontent.com/96841321/235524131-9a799124-c626-4211-b6aa-2f11707ec121.png">
+<img width="516" alt="Ekran Resmi 2023-05-02 12 30 43" src="https://user-images.githubusercontent.com/96841321/235631187-07f8fd50-0600-4370-8b75-7910a4fd4af6.png">
+
 
 data array’inde index’i 2 olan veriyi çıkartıp konsol'a yazdırıyoruz
